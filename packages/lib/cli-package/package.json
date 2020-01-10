@@ -4,6 +4,6 @@
     "main"    : "index.js",
     "license" : "MIT",
     "bin"     : {
-        "say-hi-to" : "./cli.js"
+        "say-hi-to" : "cli.js"
     }
 }
