@@ -6,8 +6,8 @@
         "start:storybook": "yarn workspace @lib/storybook-typescript storybook",
         "test": "FORCE_COLOR=true lerna run lint && CI=true FORCE_COLOR=true lerna run test -- --coverage",
         "deploy": "FORCE_COLOR=true lerna run deploy",
-        "clean" : "rimraf ./**/node_modules",
-        "cleaninstall" : "yarn clean && yarn"
+        "clean": "rimraf ./**/node_modules",
+        "cleaninstall": "yarn clean && yarn"
     },
     "workspaces": {
         "packages": [
